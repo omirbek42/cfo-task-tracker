@@ -1,6 +1,6 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
-import type { Task, SidebarMode, ViewMode, Priority, Status, Frequency } from '../types'
+import type { Task, SidebarMode, ViewMode, Priority, Status } from '../types'
 import { seedTasks } from '../data/seedTasks'
 
 interface Filters {

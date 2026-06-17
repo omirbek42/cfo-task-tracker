@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react'
-import { X, Upload, FileText, Check, Trash2 } from 'lucide-react'
+import { X, Upload, Check } from 'lucide-react'
 import { clsx } from 'clsx'
 import { format, addDays } from 'date-fns'
 import { useStore } from '../../store/useStore'
